@@ -1,0 +1,86 @@
+img{
+	display: block;
+	width: 100%;
+}
+.navbar-brand{
+	background-image: url(../img/ss_logo.jpg);
+	width: 50%;
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+.sider-bar .list-group-item{
+	border: 0;
+	margin-bottom: 10px;
+}
+.sider-bar .list-group-item.active{
+	background: orangered;
+}
+img,.sider-bar .list-group-item{
+	border-radius: 3px;
+}
+.news-list-item {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-bottom: 1px solid #E3E3E3;
+}
+.news-list-item:first-child{
+	padding-top: 0;
+}
+.news-list-item .title{
+	color: #444444;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+}
+.news-list-item .title:hover{
+	text-decoration: none;
+	color: #46B8DA;
+}
+.news-list-item .info{
+	font-size: 13px;
+	color: #ADADAD;
+}
+ .avatar{
+	display: inline-block;
+}
+.avatar img{
+	width: 16px;
+	height: 16px;
+	padding-right: 5px;
+}
+.sider-bar-card.flag{
+  padding: 20px 0;
+  padding-bottom: 20px;
+  
+}
+.sider-bar-card{
+    background: rgba(0,0,0,.05);
+    padding: 10px 0;
+   margin-top: 15px;
+}
+.text-lg{
+  font-size: 120%;
+  font-weight: 800;
+}
+.sider-bar-card .card-title,
+.sider-bar-card .card-body .list .item{
+  padding: 10px 15px;
+}
+.sider-bar-card .card-body .list .item:hover{
+     background: rgba(0,0,0,.05);
+}
+.sider-bar-card .card-title{
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 0px;
+  padding-top: 0;
+}
+.sider-bar-card .card-body .list .item .title{
+   padding-bottom: 5px;
+}
+.sider-bar-card .card-body .list .item .desc{
+   color: #999999;
+}
