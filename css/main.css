@@ -84,3 +84,44 @@ img,.sider-bar .list-group-item{
 .sider-bar-card .card-body .list .item .desc{
    color: #999999;
 }
+
+.news-title{
+   line-height: 1.5;
+   font-size: 20px;
+   font-weight: bold;
+}
+.news-status{
+  color: #999999;
+}
+.news-status .label{
+  opacity: .5;
+}
+.news-content{
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.news-img img{
+   display: block;
+   width: 75%;
+}
+ .news-content img{
+    margin-bottom: 10px;
+    margin-top: 10px;  
+ }
+.no-padding-h{
+   padding-left: 0;
+   padding-right: 0;
+}
+.footer{
+   margin-top: 20px;
+   padding: 50px 0;
+   text-align: center;
+   color: #999999;
+}
+.container-small{
+   max-width: 500px;
+}
+.container-small a:hover{
+   text-decoration: none;
+}
