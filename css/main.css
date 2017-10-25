@@ -2,13 +2,10 @@ img{
 	display: block;
 	width: 100%;
 }
-.navbar-brand{
-	background-image: url(../img/ss_logo.jpg);
-	width: 50%;
-	background-size: 75%;
-	background-repeat: no-repeat;
-	background-position: center center;
-	
+.navbar-brand img{
+	display: block;
+	width: 20px;
+	height: 20px;
 }
 .sider-bar .list-group-item{
 	border: 0;
@@ -124,4 +121,20 @@ img,.sider-bar .list-group-item{
 }
 .container-small a:hover{
    text-decoration: none;
+}
+#toggle-checkbox:checked ~ div{
+    display: block !important;
+}
+#label-checkbox {
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  color: #666666;
+  font-size: 16px;  
+  font-weight: normal;
+  display: none;
+}
+#label-checkbox:hover{
+   color: black;
 }
